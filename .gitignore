@@ -34,3 +34,6 @@
 # Ignore master key for decrypting credentials and more.
 /config/master.key
 config/initializers/carrierwave.rb
+
+# Ignore application configuration
+/config/application.yml

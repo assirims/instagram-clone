@@ -52,6 +52,8 @@ gem 'bootsnap', require: false
 # upload imgs to AWS#S3
 gem 'carrierwave', '>= 3.0.0.beta', '< 4.0'
 gem 'fog-aws', '~> 3.15'
+gem 'carrierwave-aws'
+gem 'aws-sdk-rails'
 
 # img resizing
 gem 'mini_magick', '~> 4.12'
